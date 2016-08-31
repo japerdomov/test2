@@ -13,8 +13,20 @@ float calculadora(float a,float b)
     {
       z=(a)-(b);
     }
-  std::cout<<z<<std::endl;
+  if(x==3)
+    {
+      z=(a)*(b);
+    }
+ 
+  if(x==4)
+    {
+      z=(a)/(b);
+    }
+
+
+  std::cout<<"El resultado es: "<<z<<std::endl;
   return 0;
+
 }
 
 
